@@ -7,11 +7,11 @@ INSERT INTO department(departmentid,departmentname) VALUES
   (1, "Бухгалтерия"),
   (2, "Поставки");
 
-INNER INTO salary(personid, salary) VALUES
+INSERT INTO salary(personid, salary) VALUES
   (1, 10000),
   (2, 20000),
   (3, 23000);
-  
+
 -- Запрос 1
 SELECT 
   p.personname AS "Фамилия",
